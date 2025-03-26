@@ -9,7 +9,7 @@ public class FactoryOS
          if(operatingSystem.equalsIgnoreCase("Open"))
          {
              return new Android();
-         } else if (operatingSystem.equalsIgnoreCase("Closed")) {
+         } else if (operatingSystem.equalsIgnoreCase("Closed  ")) {
              return new Ios();
          }
          else {
